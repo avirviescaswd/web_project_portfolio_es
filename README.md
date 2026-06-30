@@ -5,7 +5,7 @@ I was made to showcase a bio and some samples of projects made by him.
 
 ## Link to portfolio
 
-https://avirviescaswd.github.io/web_project_potrfolio_es/
+https://avirviescaswd.github.io/web_project_portfolio_es/
 
 ## Authors
 
@@ -18,5 +18,5 @@ HTML , CSS
 ## 🔗 Links
 
 [![Github](https://avirviescaswd.newdatastudio.com/img/banner_github_200x60px.jpg)](https://github.com/avirviescaswd?tab=repositories)
-[![portfolio](https://avirviescaswd.newdatastudio.com/img/banner_portfolio_200x60px.jpg)](https://avirviescaswd.github.io/web_project_potrfolio_es/)
+[![portfolio](https://avirviescaswd.newdatastudio.com/img/banner_portfolio_200x60px.jpg)](https://avirviescaswd.github.io/web_project_portfolio_es/)
 [![linkedin](https://avirviescaswd.newdatastudio.com/img/banner_linkedin_200x60px.jpg)](https://www.linkedin.com/in/avirviescas/)
