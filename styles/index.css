@@ -338,7 +338,8 @@
   }
   .bio__img-gradient {
     margin-left: 0;
-    width: 300px;
+    width: 285px;
+    margin-top: 220px;
   }
   .Bio__title {
     font-size: 36px;
@@ -402,11 +403,11 @@
     margin-left: 35px;
   }
   .project__card-box1 {
-    height: 500px;
+    height: 540px;
     margin: 20px;
   }
   .project__card-box2 {
-    height: 500px;
+    height: 180px;
     margin: 20px;
   }
   .project__card_links {
@@ -417,5 +418,8 @@
   /*footer*/
   .footer__gradient-bgimg {
     width: 300px;
+  }
+  .footer__social-links {
+    column-gap: 40px;
   }
 }
