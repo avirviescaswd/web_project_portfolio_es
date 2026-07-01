@@ -281,6 +281,10 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .project__card {
+    width: 702px;
+    height: auto;
+  }
   .project__card1 {
     background-color: #1c1c1c;
     width: 688px;
