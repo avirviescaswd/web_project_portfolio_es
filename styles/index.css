@@ -4,24 +4,14 @@
     url("fonts/ArchivoBlack-Regular.woff") format("woff"),
     url("fonts/ArchivoBlack-Regular.woff2") format("woff2");
 }
-@font-face {
-  font-family: "Open Sans-Bold";
-  src:
-    url("fonts/OpenSans-Bold.woff") format("woff"),
-    url("fonts/OpenSans-Bold.woff2") format("woff2");
-}
+
 @font-face {
   font-family: "Open Sans-Regular";
   src:
     url("fonts/OpenSans-Regular.woff") format("woff"),
     url("fonts/OpenSans-Regular.woff2") format("woff2");
 }
-@font-face {
-  font-family: "Open Sans-SemiBold";
-  src:
-    url("fonts/OpenSans-SemiBold.woff") format("woff"),
-    url("fonts/OpenSans-SemiBold.woff2") format("woff2");
-}
+
 .body {
   background-color: #111111;
 }
@@ -407,7 +397,7 @@
     margin: 20px;
   }
   .project__card-box2 {
-    height: 180px;
+    height: 260px;
     margin: 20px;
   }
   .project__card_links {
