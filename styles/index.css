@@ -150,7 +150,16 @@
   margin-left: 62px;
   margin-top: 280px;
 }
-.project__card-box {
+.project__card-box1 {
+  display: flex;
+  background-color: #1c1c1c;
+  height: 340px;
+  margin: 30px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.project__card-box2 {
   display: flex;
   background-color: #1c1c1c;
   height: 340px;
@@ -282,7 +291,13 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .project__card {
+  .project__card1 {
+    background-color: #1c1c1c;
+    width: 688px;
+    height: auto;
+    margin-top: 30px;
+  }
+  .project__card2 {
     background-color: #1c1c1c;
     width: 688px;
     height: auto;
@@ -306,3 +321,101 @@
 .footer__gradient-bgimg {
   z-index: -1;
   width: 700px;
+}
+
+@media screen and (max-width: 320px) {
+  /*header*/
+
+  .Bio {
+    margin: 20px;
+  }
+  .bio__img-profile {
+    position: relative;
+    margin-left: 0px;
+    width: 260px;
+    height: auto;
+    margin-top: 0px;
+  }
+  .bio__img-gradient {
+    margin-left: 0;
+    width: 300px;
+  }
+  .Bio__title {
+    font-size: 36px;
+    line-height: 39px;
+  }
+  .Bio__subtitle {
+    font-size: 16px;
+    max-width: 280px;
+  }
+  .Bio__description {
+    max-width: 280px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    row-gap: 25px;
+  }
+  /*main*/
+
+  .main {
+    max-width: 320px;
+    margin-left: 20px;
+    margin-top: 83px;
+    margin-right: 20px;
+  }
+  .main__skills-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .main__subtitle {
+    margin-top: 60px;
+    max-width: 320px;
+    font-size: 28px;
+  }
+  .project__card-image {
+    width: 260px;
+  }
+  .project__card {
+    width: 260px;
+  }
+  .project__card-icon-01 {
+    margin-top: 114px;
+    width: 20px;
+  }
+  .project__card-icon-02 {
+    margin-top: 114px;
+    width: 20px;
+    margin-left: 35px;
+  }
+  .project__card-box1 {
+    height: 500px;
+    margin: 20px;
+  }
+  .project__card-box2 {
+    height: 500px;
+    margin: 20px;
+  }
+  .project__card_links {
+    position: relative;
+    margin-top: 0;
+  }
+
+  /*footer*/
+  .footer__gradient-bgimg {
+    width: 300px;
+  }
+}
