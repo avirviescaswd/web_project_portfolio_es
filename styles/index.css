@@ -78,20 +78,17 @@
   width: stretch;
 }
 .bio__img-gradient {
-  max-width: 700px;
   margin-left: 40%;
   z-index: -1;
-  width: 100vh;
-  height: 100vw;
-  max-height: 700px;
+  width: 70vh;
+  height: 70vw;
+  max-width: 500px;
+  max-height: 670px;
   display: flex;
   overflow: hidden;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
 }
 
 .glow {
@@ -139,11 +136,10 @@
 }
 .projects {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   column-gap: 20px;
   align-items: baseline;
   flex-direction: row;
-  justify-content: space-between;
 }
 .project__card {
   background-color: #1c1c1c;
@@ -257,7 +253,7 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
-.footer__gradient-bgimg {
+.footer__img-gradient {
   z-index: -1;
   position: absolute;
 }
@@ -278,13 +274,12 @@
   .Bio__description {
     max-width: 452px;
   }
-  .bio__img-gradient {
-    margin-left: 0;
-    width: 700px;
-  }
   .bio__img-profile {
-    width: 216px;
-    height: 280px;
+    width: auto;
+    height: 260px;
+  }
+  .bio__img-gradient {
+    margin-left: 10%;
   }
   /*main*/
   .main {
@@ -335,9 +330,7 @@
 .footer {
   margin-top: 80px;
 }
-.footer__gradient-bgimg {
-  z-index: -1;
-  width: 700px;
+.footer__img-gradient {
 }
 
 @media screen and (max-width: 640px) {
@@ -355,9 +348,8 @@
     margin-top: 0px;
   }
   .bio__img-gradient {
+    max-width: 300px;
     margin-left: 0;
-    width: 285px;
-    margin-top: 220px;
   }
   .Bio__title {
     font-size: 36px;
@@ -434,8 +426,7 @@
   }
 
   /*footer*/
-  .footer__gradient-bgimg {
-    width: 300px;
+  .footer__img-gradient {
   }
   .footer__social-links {
     column-gap: 40px;
