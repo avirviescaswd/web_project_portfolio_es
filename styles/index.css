@@ -18,9 +18,10 @@
 /*header*/
 .Bio {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 120px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  gap: 20px;
 }
 .Bio__title {
   font-family: "Archivo Black", sans-serif;
@@ -77,14 +78,37 @@
   width: stretch;
 }
 .bio__img-gradient {
-  position: absolute;
+  max-width: 700px;
+  margin-left: 40%;
   z-index: -1;
-  margin-left: 510px;
+  width: 100vh;
+  height: 100vw;
+  max-height: 700px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.glow {
+  width: 30vh;
+  height: 30vw;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(80, 75, 255, 0.95) 0%,
+    rgba(96, 92, 255, 0.75) 20%,
+    rgba(120, 118, 255, 0.45) 40%,
+    rgba(160, 160, 255, 0.18) 65%,
+    rgba(167, 167, 173, 0) 100%
+  );
+  filter: blur(70px);
 }
 .bio__img-profile {
-  position: absolute;
-  margin-left: 880px;
-  margin-top: 40px;
   width: 387px;
   height: 500px;
 }
