@@ -254,8 +254,10 @@
   justify-content: flex-start;
 }
 .footer__img-gradient {
+  display: flex;
   z-index: -1;
   position: absolute;
+  margin: auto;
 }
 /*Media Querys*/
 
@@ -300,8 +302,10 @@
     justify-content: space-between;
   }
   .project__card {
-    width: 702px;
+    margin: auto;
+    width: 560px;
     height: auto;
+    margin-top: 20px;
   }
   .project__card1 {
     background-color: #1c1c1c;
@@ -316,7 +320,7 @@
     margin-top: 30px;
   }
   .project__card-image {
-    width: 688px;
+    width: 560px;
     height: auto;
   }
   .project__card-icon-01 {
